@@ -15,7 +15,9 @@ public class Main {
         johhny.play();
         francis.play();
 
-        johhny.toString();
-        francis.toString();
+        System.out.println(johhny.toString());
+        System.out.println(francis.toString());
+
+        System.out.print(casino.getMoney());
     }
 }
