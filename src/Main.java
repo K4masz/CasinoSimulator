@@ -8,6 +8,14 @@ public class Main {
 
         casino.addPlayer(new BlackJackPlayer("Johnny", 2000));
         casino.addPlayer(new OneArmedBanditPlayer("Francis", 5000));
-        
+
+        Player johhny = casino.getPlayer("Johnny");
+        Player francis = casino.getPlayer("Francis");
+
+        johhny.play();
+        francis.play();
+
+        johhny.toString();
+        francis.toString();
     }
 }

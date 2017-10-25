@@ -18,8 +18,10 @@ public class BlackJackPlayer extends Player {
     void play() {
         if (new Random().nextBoolean()) {
             System.out.println("21 won");
+            Casino.getInstance().givePlayerMoney(this.getName(), 100);
         } else {
             System.out.println("22 bust");
+            Casino.getInstance().takePlayerMoney(this.getName(), 100);
         }
     }
 }

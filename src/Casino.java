@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class Casino {
 
     private int money;
-    private HashMap<String, Player> players;
+    private static HashMap<String, Player> players = new HashMap<String, Player>();
     private static Casino inst;
 
     private Casino(){
@@ -40,7 +40,11 @@ public class Casino {
     }
 
     public void addPlayer(Player player) {
-        players.putIfAbsent(player.getName(), player);
+        try {
+            players.putIfAbsent(player.getName(), player);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public Player getPlayer(String name) {
@@ -54,5 +58,12 @@ public class Casino {
             return "Casino: " + inst.money + " $";
     }
 
+    public void givePlayerMoney(String name, int money) {
+        this.getPlayer(name).addCash(100);
+    }
+
+    public void takePlayerMoney(String name, int money) {
+        this.getPlayer(name).takeCash(100);
+    }
 }
 

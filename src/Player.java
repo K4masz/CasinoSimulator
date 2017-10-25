@@ -5,7 +5,7 @@ public abstract class Player {
 
     private int cash;
     private String name;
-    private Casino casino;
+
 
     Player(String name) {
         this.name = name;
@@ -21,6 +21,22 @@ public abstract class Player {
 
     public String getName() {
         return name;
+    }
+
+    public int getCashAmmount() {
+        return this.cash;
+    }
+
+    public void setCashAmmount(int newCash) {
+        this.cash = newCash;
+    }
+
+    public void addCash(int ammount) {
+        this.setCashAmmount(this.getCashAmmount() + ammount);
+    }
+
+    public void takeCash(int ammount) {
+        this.setCashAmmount(this.getCashAmmount() - ammount);
     }
 
     public String toString() {
