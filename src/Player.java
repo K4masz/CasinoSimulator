@@ -7,19 +7,21 @@ public abstract class Player {
     private String name;
     private Casino casino;
 
-    Player(String name, Casino instance) {
+    Player(String name) {
         this.name = name;
-        this.casino = instance;
         cash = 250;
     }
 
-    Player(String name, Casino instance, int cash) {
+    Player(String name, int cash) {
         this.name = name;
-        this.casino = instance;
         this.cash = cash;
     }
 
     abstract void play();
+
+    public String getName() {
+        return name;
+    }
 
     public String toString() {
         return name + ": " + cash;

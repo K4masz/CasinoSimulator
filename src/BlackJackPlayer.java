@@ -6,12 +6,12 @@ import java.util.Random;
 public class BlackJackPlayer extends Player {
 
 
-    BlackJackPlayer(String name, Casino instance) {
-        super(name, instance);
+    BlackJackPlayer(String name) {
+        super(name);
     }
 
-    BlackJackPlayer(String name, Casino instance, int cash) {
-        super(name, instance, cash);
+    BlackJackPlayer(String name, int cash) {
+        super(name, cash);
     }
 
     @Override

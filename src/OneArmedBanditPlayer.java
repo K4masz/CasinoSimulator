@@ -6,12 +6,12 @@ import java.util.Random;
 public class OneArmedBanditPlayer extends Player {
 
 
-    OneArmedBanditPlayer(String name, Casino instance) {
-        super(name, instance);
+    OneArmedBanditPlayer(String name) {
+        super(name);
     }
 
-    OneArmedBanditPlayer(String name, Casino instance, int cash) {
-        super(name, instance, cash);
+    OneArmedBanditPlayer(String name, int cash) {
+        super(name, cash);
     }
 
     @Override

@@ -5,10 +5,9 @@ public class Main {
     public static void main(String[] args) {
 
         Casino casino = Casino.getInstance(10000);
-        Player johnny = new BlackJackPlayer("Johnny", casino);
-        Player francis = new OneArmedBanditPlayer("Francis", casino);
 
-        johnny.play();
-        francis.play();
+        casino.addPlayer(new BlackJackPlayer("Johnny", 2000));
+        casino.addPlayer(new OneArmedBanditPlayer("Francis", 5000));
+        
     }
 }

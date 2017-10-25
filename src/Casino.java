@@ -1,9 +1,12 @@
+import java.util.HashMap;
+
 /**
  * Created by K4masz on 2017-10-21.
  */
 public class Casino {
 
     private int money;
+    private HashMap<String, Player> players;
     private static Casino inst;
 
     private Casino(){
@@ -34,6 +37,14 @@ public class Casino {
 
     public synchronized int getMoney(){
         return  inst.money;
+    }
+
+    public void addPlayer(Player player) {
+        players.putIfAbsent(player.getName(), player);
+    }
+
+    public Player getPlayer(String name) {
+        return players.get(name);
     }
 
     public String toString(){
