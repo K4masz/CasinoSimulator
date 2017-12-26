@@ -17,7 +17,7 @@ public abstract class Player {
         this.cash = cash;
     }
 
-    abstract void play();
+    abstract void play(int bid);
 
     public String getName() {
         return name;

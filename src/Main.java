@@ -12,12 +12,16 @@ public class Main {
         Player johhny = casino.getPlayer("Johnny");
         Player francis = casino.getPlayer("Francis");
 
-        johhny.play();
-        francis.play();
+        johhny.play(100);
+        francis.play(100);
 
         System.out.println(johhny.toString());
         System.out.println(francis.toString());
 
         System.out.print(casino.getMoney());
+
+
     }
+
+
 }
