@@ -1,3 +1,5 @@
+package Players;
+
 import BlackJack.Deck;
 
 import java.util.Scanner;
@@ -8,15 +10,20 @@ import java.util.Scanner;
 public class BlackJackPlayer extends Player {
 
 
-    BlackJackPlayer(String name) {
+    public BlackJackPlayer(String name) {
         super(name);
     }
-    BlackJackPlayer(String name, int cash) {
+
+    public BlackJackPlayer(String name, int cash) {
         super(name, cash);
     }
 
     @Override
-    void play(int bid) {
+    public void play(int bid) {
+
+        //method to play BlackJack
+
+
         Deck playingDeck = new Deck();
         playingDeck.createFullDeck();
 

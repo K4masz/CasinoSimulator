@@ -1,42 +1,27 @@
+package Players;
+
 import java.util.Random;
 
 /**
  * Created by K4masz on 2017-10-21.
  */
-public class OneArmedBanditPlayer extends Player {
+public class SlotMachinePlayer extends Player {
 
-    private Random rand;
-
-    OneArmedBanditPlayer(String name) {
+    public SlotMachinePlayer(String name) {
         super(name);
         rand = new Random();
     }
 
-    OneArmedBanditPlayer(String name, int cash) {
+    public SlotMachinePlayer(String name, int cash) {
         super(name, cash);
         rand = new Random();
     }
 
     @Override
-    void play(int bid) {
-
-        int[] slots;
-
-        slots = fillSlots(new int[3]);
-        printSlots(slots);
-        checkPrize(slots, bid);
-
+    public void play(int bid) {
+        //method to play SlotMachine
     }
 
-    private int[] fillSlots(int[] slots) {
-        for (int i = 0; i < slots.length; i++)
-            slots[i] = rand.nextInt(7) + 1;
-        return slots;
-    }
-
-    private void printSlots(int[] slots) {
-        System.out.println(slots[0] + " | " + slots[1] + " | " + slots[2]);
-    }
 
     private void checkPrize(int[] slots, int bid) {
 

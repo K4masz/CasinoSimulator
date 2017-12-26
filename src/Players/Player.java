@@ -1,3 +1,5 @@
+package Players;
+
 /**
  * Created by K4masz on 2017-10-21.
  */
@@ -17,7 +19,7 @@ public abstract class Player {
         this.cash = cash;
     }
 
-    abstract void play(int bid);
+    abstract public void play(int bid);
 
     public String getName() {
         return name;

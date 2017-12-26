@@ -1,3 +1,8 @@
+import Players.BlackJackPlayer;
+import Players.Player;
+import Players.SlotMachinePlayer;
+import SlotMachine.SlotMachine;
+
 /**
  * Created by K4masz on 2017-10-22.
  */
@@ -7,7 +12,7 @@ public class Main {
         Casino casino = Casino.getInstance(10000);
 
         casino.addPlayer(new BlackJackPlayer("Johnny", 2000));
-        casino.addPlayer(new OneArmedBanditPlayer("Francis", 5000));
+        casino.addPlayer(new SlotMachinePlayer("Francis", 5000));
 
         Player johhny = casino.getPlayer("Johnny");
         Player francis = casino.getPlayer("Francis");
@@ -20,7 +25,9 @@ public class Main {
 
         System.out.print(casino.getMoney());
 
-
+        SlotMachine sm = new SlotMachine();
+        sm.fillSlots();
+        System.out.println(sm.toString());
     }
 
 
