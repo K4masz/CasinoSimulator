@@ -1,44 +1,26 @@
 package Players;
 
-import BlackJack.Deck;
-
-import java.util.Scanner;
+import BlackJack.BlackJack;
 
 /**
  * Created by K4masz on 2017-10-21.
  */
 public class BlackJackPlayer extends Player {
 
+    BlackJack bj;
 
     public BlackJackPlayer(String name) {
         super(name);
+        bj = new BlackJack();
     }
 
     public BlackJackPlayer(String name, int cash) {
         super(name, cash);
+        bj = new BlackJack();
     }
 
     @Override
     public void play(int bid) {
-
-        //method to play BlackJack
-
-
-        Deck playingDeck = new Deck();
-        playingDeck.createFullDeck();
-
-        Deck playerDeck = new Deck();
-        Deck dealerDeck = new Deck();
-
-        Scanner userInput = new Scanner(System.in);
-
-        //start
-        playerDeck.draw(playingDeck);
-        playerDeck.draw(playingDeck);
-
-        dealerDeck.draw(playingDeck);
-        dealerDeck.draw(playingDeck);
-
-
+        bj.newGame(bid, this);
     }
 }

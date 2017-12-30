@@ -61,13 +61,13 @@ public class Casino {
     }
 
     public void givePlayerMoney(String name, int money) {
-        this.setMoney(this.getMoney() - 100);
-        this.getPlayer(name).addCash(100);
+        this.setMoney(this.getMoney() - money);
+        this.getPlayer(name).addCash(money);
     }
 
     public void takePlayerMoney(String name, int money) {
-        this.setMoney(this.getMoney() + 100);
-        this.getPlayer(name).takeCash(100);
+        this.setMoney(this.getMoney() + money);
+        this.getPlayer(name).takeCash(money);
     }
 }
 
