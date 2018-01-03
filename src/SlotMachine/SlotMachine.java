@@ -1,18 +1,22 @@
 package SlotMachine;
 
 
+import Casino.Casino;
 import Players.SlotMachinePlayer;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class SlotMachine {
     private Reel[] slots;
     private Random rand;
     private int size;
+    private Scanner input;
 
     public SlotMachine() {
         this.slots = new Reel[]{new Reel(), new Reel(), new Reel()};
         this.size = Symbol.values().length;
+        this.input = new Scanner(System.in);
     }
 
     private void fillSlots() {
@@ -25,18 +29,20 @@ public class SlotMachine {
     private void checkPrize(int bid, SlotMachinePlayer player) {
         if (slots[0].getSymbol() == slots[1].getSymbol() && slots[1].getSymbol() == slots[2].getSymbol()) {
             System.out.println("Major Prize!");
-            player.addCash(bid * 2);
+            Casino.getInstance().givePlayerMoney(player.getName(), bid * 2);
 
         } else if (slots[0].getSymbol() == slots[1].getSymbol() ||
                 slots[1].getSymbol() == slots[2].getSymbol() ||
                 slots[0].getSymbol() == slots[2].getSymbol()) {
             System.out.println("Minor prize!");
-            player.addCash(bid);
+            Casino.getInstance().givePlayerMoney(player.getName(), bid);
 
         } else {
             System.out.println("Bust!");
-            player.takeCash(bid);
+            Casino.getInstance().takePlayerMoney(player.getName(), bid);
         }
+
+        System.out.println("-------------");
     }
 
     @Override
@@ -45,8 +51,13 @@ public class SlotMachine {
     }
 
     public void newGame(int bid, SlotMachinePlayer sMPlayer) {
-        this.fillSlots();
-        System.out.println(this.toString());
-        this.checkPrize(bid, sMPlayer);
+        if (sMPlayer.getCashAmmount() > bid) {
+            this.fillSlots();
+            System.out.println(this.toString());
+            this.checkPrize(bid, sMPlayer);
+
+        } else
+            System.out.println(sMPlayer.getName() + " You don't have enough money.");
     }
+
 }

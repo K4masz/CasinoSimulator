@@ -4,15 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/Players/SlotMachinePlayer.java" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77f4dbbd-b3aa-4fa1-967d-714f47a42e4d" name="Default" comment="Organized project structure,&#10;Moved game implementations to separate classes">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BlackJack/BlackJack.java" />
+    <list default="true" id="77f4dbbd-b3aa-4fa1-967d-714f47a42e4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/BlackJack/Deck.java" afterPath="$PROJECT_DIR$/src/BlackJack/Deck.java" />
-      <change beforePath="$PROJECT_DIR$/src/Casino.java" afterPath="$PROJECT_DIR$/src/Casino.java" />
+      <change beforePath="$PROJECT_DIR$/src/BlackJack/BlackJack.java" afterPath="$PROJECT_DIR$/src/BlackJack/BlackJack.java" />
+      <change beforePath="$PROJECT_DIR$/src/Casino.java" afterPath="$PROJECT_DIR$/src/Casino/Casino.java" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/Players/BlackJackPlayer.java" afterPath="$PROJECT_DIR$/src/Players/BlackJackPlayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/Players/SlotMachinePlayer.java" afterPath="$PROJECT_DIR$/src/Players/SlotMachinePlayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/SlotMachine/Reel.java" afterPath="$PROJECT_DIR$/src/SlotMachine/Reel.java" />
       <change beforePath="$PROJECT_DIR$/src/SlotMachine/SlotMachine.java" afterPath="$PROJECT_DIR$/src/SlotMachine/SlotMachine.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,13 +19,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="1019">
+              <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,41 +45,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlackJackPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Players/BlackJackPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlackJack.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlackJack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BlackJack/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="439">
+              <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlotMachine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SlotMachine/SlotMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#SlotMachine#0;class#SlotMachine#0" expanded="false" />
+                <element signature="method#fillSlots#0;class#SlotMachine#0" expanded="false" />
+                <element signature="method#toString#0;class#SlotMachine#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BlackJack/Deck.java">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            <state relative-caret-position="519">
+              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
-                <element signature="method#createFullDeck#0;class#Deck#0" expanded="false" />
-                <element signature="method#draw#0;class#Deck#0" expanded="false" />
-                <element signature="method#cardsValue#0;class#Deck#0" expanded="false" />
-                <element signature="method#moveAllToDeck#0;class#Deck#0" expanded="false" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Casino.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
+                <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
+                <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -117,12 +144,13 @@
         <option value="$PROJECT_DIR$/src/BlackJack/Card.java" />
         <option value="$PROJECT_DIR$/src/Casino.java" />
         <option value="$PROJECT_DIR$/src/Players/SlotMachinePlayer.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/SlotMachine/Reel.java" />
-        <option value="$PROJECT_DIR$/src/SlotMachine/SlotMachine.java" />
-        <option value="$PROJECT_DIR$/src/BlackJack/Deck.java" />
-        <option value="$PROJECT_DIR$/src/BlackJack/BlackJack.java" />
         <option value="$PROJECT_DIR$/src/Players/BlackJackPlayer.java" />
+        <option value="$PROJECT_DIR$/src/BlackJack/Deck.java" />
+        <option value="$PROJECT_DIR$/src/SlotMachine/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/Casino/Casino.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/BlackJack/BlackJack.java" />
       </list>
     </option>
   </component>
@@ -154,6 +182,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +205,12 @@
               <item name="CasinoSimulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="CasinoSimulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Casino" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CasinoSimulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CasinoSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Players" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,9 +223,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +234,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Casino" />
+      <recent name="Casion" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -577,7 +618,8 @@
       <workItem from="1514480551774" duration="2270000" />
       <workItem from="1514501163877" duration="623000" />
       <workItem from="1514556689548" duration="648000" />
-      <workItem from="1514635206628" duration="112000" />
+      <workItem from="1514635206628" duration="2042000" />
+      <workItem from="1514906484101" duration="7608000" />
     </task>
     <task id="LOCAL-00001" summary="renamed OneHandBanditPlayer to OneArmedBanditPlayer&#10;added test implementantions of play() methods">
       <created>1508683469556</created>
@@ -614,11 +656,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514311997078</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Organized project structure,&#10;Renamed OneArmedBanditPlayer to SlotMachinePlayer,&#10;Renamed OneArmedBandit to SlotMachine&#10;Re-implemented SlotMachine game&#10;Re-implemented BlackJack game">
+      <created>1514635567334</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514635567335</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59080000" />
+    <option name="totallyTimeSpent" value="68618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,24 +683,26 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22508399" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26651737" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26754385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26651737" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19763695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20032224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34154534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -659,9 +710,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -733,13 +782,22 @@
     <MESSAGE value="Repaired minor mistakes in Casino,&#10;Added money operations on Casino and player accounts." />
     <MESSAGE value="Added BlackJack game implementation&#10;Added OneArmedBandit game implementation" />
     <MESSAGE value="Organized project structure,&#10;Moved game implementations to separate classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organized project structure,&#10;Moved game implementations to separate classes" />
+    <MESSAGE value="Organized project structure,&#10;Renamed OneArmedBanditPlayer to SlotMachinePlayer,&#10;Renamed OneArmedBandit to SlotMachine&#10;Re-implemented SlotMachine game&#10;Re-implemented BlackJack game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organized project structure,&#10;Renamed OneArmedBanditPlayer to SlotMachinePlayer,&#10;Renamed OneArmedBandit to SlotMachine&#10;Re-implemented SlotMachine game&#10;Re-implemented BlackJack game" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -748,16 +806,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Casino.java">
+    <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
             <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
             <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
             <element signature="method#toString#0;class#Casino#0" expanded="false" />
           </folding>
@@ -785,16 +843,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casino.java">
+    <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
             <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
             <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
             <element signature="method#toString#0;class#Casino#0" expanded="false" />
           </folding>
@@ -816,22 +874,22 @@
         <state relative-caret-position="560">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casino.java">
+    <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
             <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
             <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
             <element signature="method#toString#0;class#Casino#0" expanded="false" />
           </folding>
@@ -851,8 +909,8 @@
         <state relative-caret-position="418">
           <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="70" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -878,16 +936,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casino.java">
+    <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
             <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
             <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
             <element signature="method#toString#0;class#Casino#0" expanded="false" />
           </folding>
@@ -907,8 +965,8 @@
         <state relative-caret-position="374">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -934,16 +992,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casino.java">
+    <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
             <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
             <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
             <element signature="method#toString#0;class#Casino#0" expanded="false" />
           </folding>
@@ -963,8 +1021,8 @@
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -990,16 +1048,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casino.java">
+    <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
             <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
             <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
             <element signature="method#toString#0;class#Casino#0" expanded="false" />
           </folding>
@@ -1040,22 +1098,22 @@
         <state relative-caret-position="170">
           <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casino.java">
+    <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
             <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
             <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
             <element signature="method#toString#0;class#Casino#0" expanded="false" />
           </folding>
@@ -1075,8 +1133,8 @@
         <state relative-caret-position="136">
           <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1104,33 +1162,10 @@
     <entry file="file://$PROJECT_DIR$/src/MainMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/MainMenu.form" />
     <entry file="file://$PROJECT_DIR$/src/Players.java" />
-    <entry file="file://$PROJECT_DIR$/src/Players/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BlackJack/Value.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SlotMachine/Symbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlackJack/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1159,32 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Casino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
-            <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
-            <element signature="method#toString#0;class#Casino#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SlotMachine/SlotMachine Symbols Reference.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1194,6 +1203,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,44 +1218,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SlotMachine/SlotMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/SlotMachine/Symbol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlackJack/BlackJack.java">
+    <entry file="file://$PROJECT_DIR$/src/BlackJack/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Players/BlackJackPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="380">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SlotMachine/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="method#SlotMachine#0;class#SlotMachine#0" expanded="false" />
+            <element signature="method#fillSlots#0;class#SlotMachine#0" expanded="false" />
+            <element signature="method#toString#0;class#SlotMachine#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BlackJack/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="500">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
+            <element signature="e#154#155#0" expanded="false" />
+            <element signature="e#204#205#0" expanded="false" />
             <element signature="method#createFullDeck#0;class#Deck#0" expanded="false" />
+            <element signature="method#toString#0;class#Deck#0" expanded="false" />
             <element signature="method#draw#0;class#Deck#0" expanded="false" />
             <element signature="method#cardsValue#0;class#Deck#0" expanded="false" />
             <element signature="method#moveAllToDeck#0;class#Deck#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Casino/Casino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getInstance#0;class#Casino#0" expanded="false" />
+            <element signature="method#getInstance#1;class#Casino#0" expanded="false" />
+            <element signature="method#addPlayer#0;class#Casino#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1019">
+          <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlackJack/BlackJack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

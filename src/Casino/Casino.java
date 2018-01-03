@@ -1,3 +1,5 @@
+package Casino;
+
 import Players.Player;
 
 import java.util.HashMap;
