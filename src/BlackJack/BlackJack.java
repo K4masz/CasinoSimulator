@@ -19,7 +19,6 @@ public class BlackJack {
         this.input = new Scanner(System.in);
     }
 
-
     public void newGame(int bid, BlackJackPlayer bJPlayer) {
 
         if (bJPlayer.getCashAmmount() > bid) {

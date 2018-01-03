@@ -51,6 +51,14 @@ public class Casino {
         }
     }
 
+    public void removePlayer(Player player) {
+        removePlayer(player.getName());
+    }
+
+    public void removePlayer(String name) {
+        players.remove(name);
+    }
+
     public Player getPlayer(String name) {
         return players.get(name);
     }
