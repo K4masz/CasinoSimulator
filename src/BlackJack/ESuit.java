@@ -1,6 +1,6 @@
 package BlackJack;
 
-public enum Suit {
+public enum ESuit {
 
     CLUB,
     DIAMOND,

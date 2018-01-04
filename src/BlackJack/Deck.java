@@ -12,8 +12,8 @@ public class Deck {
     }
 
     public void createFullDeck() { //with shuffle
-        for (Suit cardSuit : Suit.values()) {
-            for (Value cardValue : Value.values()) {
+        for (ESuit cardSuit : ESuit.values()) {
+            for (EValue cardValue : EValue.values()) {
                 this.cards.add(new Card(cardSuit, cardValue));
             }
 

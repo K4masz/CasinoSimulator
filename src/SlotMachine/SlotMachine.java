@@ -15,7 +15,7 @@ public class SlotMachine {
 
     public SlotMachine() {
         this.slots = new Reel[]{new Reel(), new Reel(), new Reel()};
-        this.size = Symbol.values().length;
+        this.size = SlotMachine.ESymbol.values().length;
         this.input = new Scanner(System.in);
     }
 
@@ -23,7 +23,7 @@ public class SlotMachine {
         this.rand = new Random();
 
         for (int i = 0; i < slots.length; i++)
-            slots[i].setSymbol(Symbol.values()[this.rand.nextInt(this.size)]);
+            slots[i].setSymbol(SlotMachine.ESymbol.values()[this.rand.nextInt(this.size)]);
     }
 
     private void checkPrize(int bid, SlotMachinePlayer player) {

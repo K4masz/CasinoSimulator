@@ -1,16 +1,16 @@
 package BlackJack;
 
 public class Card {
-    private Suit suit;
-    private Value value;
+    private ESuit suit;
+    private EValue value;
 
-    public Card(Suit suit, Value value) {
+    public Card(ESuit suit, EValue value) {
         this.suit = suit;
         this.value = value;
 
     }
 
-    public Value getValue() {
+    public EValue getValue() {
         return this.value;
     }
 

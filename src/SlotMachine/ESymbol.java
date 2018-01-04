@@ -1,6 +1,6 @@
 package SlotMachine;
 
-public enum Symbol {
+public enum ESymbol {
 
     CHERRY,
     BELL,

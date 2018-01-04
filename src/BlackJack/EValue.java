@@ -1,6 +1,6 @@
 package BlackJack;
 
-public enum Value {
+public enum EValue {
 
     TWO,
     THREE,

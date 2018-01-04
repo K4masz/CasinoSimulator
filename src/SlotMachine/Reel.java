@@ -1,16 +1,16 @@
 package SlotMachine;
 
 public class Reel {
-    private Symbol symbol;
+    private ESymbol symbol;
 
     public Reel() {
     }
 
-    public Symbol getSymbol() {
+    public ESymbol getSymbol() {
         return this.symbol;
     }
 
-    public void setSymbol(Symbol symbol) {
+    public void setSymbol(ESymbol symbol) {
         this.symbol = symbol;
     }
 
